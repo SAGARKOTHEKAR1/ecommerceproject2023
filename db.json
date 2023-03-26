@@ -5,6 +5,60 @@
       "email": "sagar@gmail.com",
       "password": "sagar@123",
       "id": 1
+    },
+    {
+      "name": "sani",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 2
+    },
+    {
+      "name": "mrunali",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 3
+    },
+    {
+      "name": "kanchan",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 5
+    },
+    {
+      "name": "sagar",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 6
+    },
+    {
+      "name": "Aniket",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 7
+    },
+    {
+      "name": "mrunali",
+      "email": "sagarkothekar@gmail.com",
+      "password": "Sagar123",
+      "id": 8
+    },
+    {
+      "name": "ram",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 9
+    },
+    {
+      "name": "raja",
+      "email": "raja@123",
+      "password": "raja123",
+      "id": 10
     }
   ]
 }
