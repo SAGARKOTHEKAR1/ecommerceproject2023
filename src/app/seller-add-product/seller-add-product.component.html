@@ -1,1 +1,58 @@
-<p>seller-add-product works!</p>
+
+
+<div class="add-product">
+    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 ">
+    <h1>Add New Product</h1>
+
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
+
+        <div class="form-outline mb-3">
+            <input type="text" 
+              name="name" class="form-control form-control-lg"
+              placeholder="Enter product Name"
+              ngModel />
+            
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="price" class="form-control form-control-lg"
+              placeholder="Enter product Price"
+              ngModel />
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="color" class="form-control form-control-lg"
+              placeholder="Enter product color"
+              ngModel />
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="category" class="form-control form-control-lg"
+              placeholder="Enter product Category"
+              ngModel />
+          </div>
+
+          <div class="form-outline mb-3">
+            <textarea type="text" 
+              name="description" class="form-control form-control-lg"
+              placeholder="Enter product Description"
+              ngModel ></textarea>
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="image" class="form-control form-control-lg"
+              placeholder="Enter product Image URL"
+              ngModel />
+
+              
+          </div>
+          <button class="btn btn-primary" type="submit">Add Product</button>
+
+    </form>
+</div>
+
+</div>
