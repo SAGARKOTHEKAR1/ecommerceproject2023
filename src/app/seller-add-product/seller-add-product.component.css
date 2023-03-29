@@ -8,4 +8,12 @@
 h1{
  color: blueviolet;
  margin-bottom: 5%;
+
+}
+.p-massage{
+    color: green;
+
+}
+.add-product{
+    text-align: center;
 }

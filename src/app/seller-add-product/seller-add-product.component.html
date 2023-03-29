@@ -4,6 +4,8 @@
     <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 ">
     <h1>Add New Product</h1>
 
+  <p class="p-massage">{{addProductMessage}}</p>
+
     <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
 
         <div class="form-outline mb-3">

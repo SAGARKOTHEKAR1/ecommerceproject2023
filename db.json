@@ -60,5 +60,34 @@
       "password": "raja123",
       "id": 10
     }
+  ],
+  "products": [
+    {
+      "name": "Samsung m 30",
+      "price": "25000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://img4.gadgetsnow.com/gd/images/products/additional/small/G102843_View_1/mobiles/smartphones/samsung-galaxy-m30-64gb-black-4gb-ram-.jpg",
+      "description": "50mp camera with 8 gb ram and 124gb internal storeg",
+      "id": 1
+    },
+    {
+      "name": "Samsung M40",
+      "price": "15000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "30mp Camera with 120 Gb storeg",
+      "image": "https://img5.gadgetsnow.com/gd/images/products/additional/large/G112827_View_1/mobiles/smartphones/samsung-galaxy-m40-128gb-seawater-blue-6gb-ram-.jpg",
+      "id": 2
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "Demanded product ",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg",
+      "id": 3
+    }
   ]
 }
