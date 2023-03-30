@@ -1,0 +1,19 @@
+.update-product{
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+h1{
+ color: blueviolet;
+ margin-bottom: 5%;
+
+}
+.p-massage{
+    color: green;
+
+}
+.add-product{
+    text-align: center;
+}

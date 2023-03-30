@@ -1,0 +1,59 @@
+<div class="update-product">
+    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 ">
+    <h1>Update Product</h1>
+
+
+
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
+
+        <div class="form-outline mb-3">
+            <input type="text" 
+              name="name" class="form-control form-control-lg"
+              placeholder="Enter product Name"
+              ngModel="{{productData?.name}}" />
+            
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="price" class="form-control form-control-lg"
+              placeholder="Enter product Price"
+              ngModel="{{productData?.price}}" />
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="color" class="form-control form-control-lg"
+              placeholder="Enter product color"
+              ngModel="{{productData?.color}}" />
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="category" class="form-control form-control-lg"
+              placeholder="Enter product Category"
+              ngModel="{{productData?.category}}" />
+          </div>
+
+          <div class="form-outline mb-3">
+            <textarea type="text" 
+              name="description" class="form-control form-control-lg"
+              placeholder="Enter product Description"
+              ngModel="{{productData?.description}}" ></textarea>
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="text" 
+              name="image" class="form-control form-control-lg"
+              placeholder="Enter product Image URL"
+              ngModel="{{productData?.image}}" />
+
+              
+          </div>
+          <button class="btn btn-primary" type="submit">Update Product</button>
+
+    </form>
+</div>
+
+</div>
+
