@@ -10,7 +10,8 @@ import { ProductService } from '../services/product.service';
 })
 export class SellerUpdateProductComponent implements OnInit {
 
-  productData:undefined | product
+  productData:undefined | product;
+  productMassage:undefined | string;
 
   constructor(private rout :ActivatedRoute , private product:ProductService) { }
 
@@ -23,7 +24,20 @@ export class SellerUpdateProductComponent implements OnInit {
 
   }
 
-  submit(data:any){
+  submit(data:product){
+    console.warn(data)
+    if(this.productData){
+      data.id=this.productData.id;
+    }
+ this.product.updateProduct(data).subscribe((result)=>{
 
+  if(result){
+    this.productMassage="Product has updated"
+
+  }
+ });
+ setTimeout(()=>{
+  this.productMassage=undefined
+ },3000)
   }
 }

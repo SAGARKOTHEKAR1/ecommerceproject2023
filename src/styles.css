@@ -36,3 +36,8 @@ font-family: sans-serif;
 .error-p{
     color: red;
 }
+
+.carousel-caption{
+    background-color: black;
+    border: 5px;
+}

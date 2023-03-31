@@ -107,6 +107,12 @@
       "email": "kalpana",
       "password": "kalpana",
       "id": 18
+    },
+    {
+      "name": "santosh",
+      "email": "kalpana",
+      "password": "kalpana",
+      "id": 19
     }
   ],
   "products": [
@@ -121,7 +127,7 @@
     },
     {
       "name": "Samsung M40",
-      "price": "15000",
+      "price": "19000",
       "color": "Black",
       "category": "Mobile",
       "description": "30mp Camera with 120 Gb storeg",

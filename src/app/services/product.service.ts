@@ -25,4 +25,15 @@ return this.Http.delete(`http://localhost:3000/products/${id}`)
   getProduct(id:string){
 return this.Http.get<product>(`http://localhost:3000/products/${id}`)
   }
+
+  updateProduct(product:product){
+    return this.Http.put<product>(`http://localhost:3000/products/${product.id}`,product)
+  }
+  popularProduct(){
+    return this.Http.get<product>(`http://localhost:3000/products?_limit=3`);
+  }
+
+  trendyProduct(){
+    return this.Http.get<product>(`http://localhost:3000/products?_limit=8`);
+  }
 }
