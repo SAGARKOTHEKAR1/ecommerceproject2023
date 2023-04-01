@@ -133,6 +133,78 @@
       "description": "30mp Camera with 120 Gb storeg",
       "image": "https://img5.gadgetsnow.com/gd/images/products/additional/large/G112827_View_1/mobiles/smartphones/samsung-galaxy-m40-128gb-seawater-blue-6gb-ram-.jpg",
       "id": 2
+    },
+    {
+      "name": "laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "high speed",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l2hwwi80/computer/o/q/u/eg2035tu-thin-and-light-laptop-hp-original-imagdtzgzfs6gjfy.jpeg?q=70",
+      "id": 3
+    },
+    {
+      "name": "laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "high speed",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l2hwwi80/computer/o/q/u/eg2035tu-thin-and-light-laptop-hp-original-imagdtzgzfs6gjfy.jpeg?q=70",
+      "id": 4
+    },
+    {
+      "name": "laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "high speed",
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/computer/i/b/p/-original-imaghkprhrcgrfey.jpeg?q=70",
+      "id": 5
+    },
+    {
+      "name": "polo",
+      "price": "1000",
+      "color": "black",
+      "category": "t-shart",
+      "description": "new style",
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1zc6fk0/t-shirt/f/e/t/xxl-t478hs-as25whlbersh-eyebogler-original-imagdf8cpjfzuwbe.jpeg?q=70",
+      "id": 6
+    },
+    {
+      "name": "polo",
+      "price": "1000",
+      "color": "black",
+      "category": "t-shart",
+      "description": "new style",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/t/q/i/m-db1024-37-3bros-original-imagz8zjz7t7sqyb.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "name": "polo",
+      "price": "1000",
+      "color": "black",
+      "category": "t-shart",
+      "description": "new style",
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1zc6fk0/t-shirt/f/e/t/xxl-t478hs-as25whlbersh-eyebogler-original-imagdf8cpjfzuwbe.jpeg?q=70",
+      "id": 8
+    },
+    {
+      "name": "woman kurti",
+      "price": "1000",
+      "color": "black",
+      "category": "kurti",
+      "description": "new style",
+      "image": "https://rukminim1.flixcart.com/image/612/612/kl5hh8w0/kurta/3/m/e/m-001-anarkali-sona-fashions-original-imagyck3g9sps4wy.jpeg?q=70",
+      "id": 9
+    },
+    {
+      "name": "woman kurti",
+      "price": "1000",
+      "color": "black",
+      "category": "kurti",
+      "description": "new style",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/i/d/n/3xl-nsg-358-saabhi-original-imaghrb4t4wudgfp.jpeg?q=70",
+      "id": 10
     }
   ]
 }

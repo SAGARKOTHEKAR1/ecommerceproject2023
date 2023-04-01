@@ -2,6 +2,7 @@
     object-fit: contain;
     height: 600px;
     width: 100%;
+    background-color: antiquewhite;
 
 }
 
@@ -22,26 +23,30 @@ object-fit: contain;
    
     border: 1px solid #ddd;
     margin-top: 25px;
+    background-color: antiquewhite;
 }
 
-.product-item .product-details{
+.product-details{
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 15px;
+    background-color: antiquewhite;
 }
 
-.product-item .name-head{
+.name-head{
  
     text-align: center;
     font-size: 20px;
     font-weight: 600;
 }
-.product-item .product-details h6{
-    text-align: center;
-}
+
 
 .product-footer{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: solid #ddd;
+}
+h6{
+    text-align: center;
 }
