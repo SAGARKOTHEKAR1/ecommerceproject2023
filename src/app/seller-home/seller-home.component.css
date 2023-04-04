@@ -2,6 +2,7 @@ table{
     text-align: left;
     color: darkmagenta;
     border-collapse: collapse;
+    text-size-adjust: 40px;
 }
 table td , table th{
  border: 1px solid black;

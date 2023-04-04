@@ -10,6 +10,7 @@ export interface login{
 }
 
 export interface product{
+    length: any
     name:string,
     price:number,
     category:string,

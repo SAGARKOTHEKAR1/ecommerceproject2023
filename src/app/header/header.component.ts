@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { product } from '../data-type';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +13,9 @@ export class HeaderComponent implements OnInit {
   sellerName:string='';
 
   menuType:string='default';
-  constructor(private rout:Router) { }
+
+  searchResult:undefined|product;
+  constructor(private rout:Router ,private product:ProductService) { }
 
   ngOnInit(): void {
   
@@ -27,7 +31,7 @@ export class HeaderComponent implements OnInit {
           }
           
         }else{
-          console.warn("outside seller");
+        
           this.menuType='default'
           
         }
@@ -38,6 +42,30 @@ export class HeaderComponent implements OnInit {
   logout(){
     localStorage.removeItem('seller');
     this.rout.navigate(['/'])
+  }
+  searchProduct(query:KeyboardEvent){
+    if(query){
+      const element= query.target as HTMLInputElement;
+      this.product.searchProducts(element.value).subscribe((result)=>{
+        
+        if(result.length>5){
+result.length=5;
+        }
+        
+this.searchResult=result;
+      })
+    
+    }
+
+  }
+  hideSearch(){
+    this.searchResult=undefined
+  }
+  redirectToDetails(id:number){
+    this.rout.navigate(['/details/'+id])
+  }
+  submitSerch(val:string){
+this.rout.navigate([`search/${val}`])
   }
 
 }

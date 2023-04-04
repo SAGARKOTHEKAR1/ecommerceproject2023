@@ -36,4 +36,8 @@ return this.Http.get<product>(`http://localhost:3000/products/${id}`)
   trendyProduct(){
     return this.Http.get<product>(`http://localhost:3000/products?_limit=8`);
   }
+
+  searchProducts(query:string){
+    return this.Http.get<product>(`http://localhost:3000/products?q=${query}`);
+  }
 }

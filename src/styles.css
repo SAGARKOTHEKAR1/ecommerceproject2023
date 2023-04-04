@@ -41,3 +41,13 @@ font-family: sans-serif;
     background-color: black;
     border: 5px;
 }
+
+.form-button{
+    height: 35px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+   }

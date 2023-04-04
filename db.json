@@ -206,5 +206,49 @@
       "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/i/d/n/3xl-nsg-358-saabhi-original-imaghrb4t4wudgfp.jpeg?q=70",
       "id": 10
     }
+  ],
+  "users": [
+    {
+      "name": "sagar",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 1
+    },
+    {
+      "name": "sagar",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 2
+    },
+    {
+      "name": "sagar",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 3
+    },
+    {
+      "name": "sagar",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 4
+    },
+    {
+      "name": "ram",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 5
+    },
+    {
+      "name": "ram",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 6
+    },
+    {
+      "name": "sagark",
+      "email": "ram123",
+      "password": "ram123",
+      "id": 7
+    }
   ]
 }

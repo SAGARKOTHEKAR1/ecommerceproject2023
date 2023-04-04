@@ -17,6 +17,10 @@ object-fit: contain;
 .product-list-wrapper{
     margin-top: 80px;
     margin-bottom: 80px;
+    color: blueviolet;
+    text-align: center;
+
+    
 
 }
 .product-item{
@@ -41,6 +45,7 @@ object-fit: contain;
 }
 
 
+
 .product-footer{
     display: flex;
     justify-content: space-between;
@@ -50,3 +55,5 @@ object-fit: contain;
 h6{
     text-align: center;
 }
+
+

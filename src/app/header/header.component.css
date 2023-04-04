@@ -57,3 +57,22 @@ color: blueviolet;
 h1 a{
     color: blueviolet; text-decoration: none;
 }
+
+.sugest-result{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+}
+.sugest-result li{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.sugest-result li a{
+    cursor: pointer;
+    color: blueviolet;
+}

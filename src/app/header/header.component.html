@@ -2,8 +2,15 @@
 <nav class="nav navbar navbar-light" style="background-color: #e3f2fd;">
     <h1><a routerLink="/">E-Cart</a></h1>
     <div *ngIf="menuType==='default'" class="nav-search">
-        <input type="text" placeholder="search  for product">
-        <button>search</button>
+        <input type="text"
+        #serchInput (keyup)="searchProduct($event)" (blur)=" hideSearch()" placeholder="search  for product">
+        <button (click)="submitSerch(serchInput.value)">search</button>
+        <ul class="sugest-result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+            </li>
+
+        </ul>
     </div>
 <div [ngSwitch]="menuType">
     <ul *ngSwitchCase="'default'">
@@ -11,7 +18,7 @@
         
         <li><a routerLink="seller-auth">Seller</a></li>
 
-        <li><a href="#">Login</a></li>
+        <li><a routerLink="/user-auth">Login/Sign-Up</a></li>
 
         <li><a href="#">Cart(0)</a></li>
         
