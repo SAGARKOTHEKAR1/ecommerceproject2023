@@ -51,3 +51,14 @@ font-family: sans-serif;
     margin-right: 5%;
     margin-bottom: 5%;
    }
+
+   .invalid-input{
+    color: red;
+    font-size: 12px;
+  
+    
+   }
+
+   button:disabled{
+    cursor: not-allowed;
+   }

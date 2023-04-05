@@ -1,5 +1,5 @@
-<div class="container">
-<nav class="nav navbar navbar-light" style="background-color: #e3f2fd;">
+<div >
+<nav class="nav navbar navbar-expand-xxl navbar-light" style="background-color: #e3f2fd;">
     <h1><a routerLink="/">E-Cart</a></h1>
     <div *ngIf="menuType==='default'" class="nav-search">
         <input type="text"
@@ -20,7 +20,20 @@
 
         <li><a routerLink="/user-auth">Login/Sign-Up</a></li>
 
-        <li><a href="#">Cart(0)</a></li>
+        <li><a href="#">Cart({{cartItems}})</a></li>
+        
+    </ul>
+
+    <ul *ngSwitchCase="'user'">
+        <li><a routerLink="">Home</a></li>
+        
+        <li><a routerLink="seller-auth">Seller</a></li>
+
+        <li><a routerLink="/user-auth">{{userName | titlecase}}</a></li>
+
+        <li><a (click)="userLogout()">Logout</a></li>
+
+        <li><a href="#">Cart({{cartItems}})</a></li>
         
     </ul>
 

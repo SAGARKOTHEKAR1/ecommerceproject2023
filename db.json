@@ -249,6 +249,50 @@
       "email": "ram123",
       "password": "ram123",
       "id": 7
+    },
+    {
+      "name": "vijay",
+      "email": "vijay123@123",
+      "password": "vijay",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 30",
+      "price": "25000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://img4.gadgetsnow.com/gd/images/products/additional/small/G102843_View_1/mobiles/smartphones/samsung-galaxy-m30-64gb-black-4gb-ram-.jpg",
+      "description": "50mp camera with 8 gb ram and 124gb internal storeg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "name": "laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "high speed",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l2hwwi80/computer/o/q/u/eg2035tu-thin-and-light-laptop-hp-original-imagdtzgzfs6gjfy.jpeg?q=70",
+      "quantity": 3,
+      "userId": 1,
+      "productId": 3,
+      "id": 2
+    },
+    {
+      "name": "laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "high speed",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l2hwwi80/computer/o/q/u/eg2035tu-thin-and-light-laptop-hp-original-imagdtzgzfs6gjfy.jpeg?q=70",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 3
     }
   ]
 }

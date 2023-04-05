@@ -15,8 +15,8 @@ object-fit: contain;
 }
 
 .product-list-wrapper{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: blueviolet;
     text-align: center;
 
@@ -54,6 +54,15 @@ object-fit: contain;
 }
 h6{
     text-align: center;
+}
+.marquee{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: chartreuse;
+}
+
+h3{
+    color: blue;
 }
 
 
