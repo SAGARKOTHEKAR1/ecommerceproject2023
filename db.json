@@ -293,6 +293,124 @@
       "userId": 1,
       "productId": 3,
       "id": 3
+    },
+    {
+      "name": "Samsung M40",
+      "price": "19000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "30mp Camera with 120 Gb storeg",
+      "image": "https://img5.gadgetsnow.com/gd/images/products/additional/large/G112827_View_1/mobiles/smartphones/samsung-galaxy-m40-128gb-seawater-blue-6gb-ram-.jpg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "high speed",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l2hwwi80/computer/o/q/u/eg2035tu-thin-and-light-laptop-hp-original-imagdtzgzfs6gjfy.jpeg?q=70",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 5
+    },
+    {
+      "name": "Samsung m 30",
+      "price": "25000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://img4.gadgetsnow.com/gd/images/products/additional/small/G102843_View_1/mobiles/smartphones/samsung-galaxy-m30-64gb-black-4gb-ram-.jpg",
+      "description": "50mp camera with 8 gb ram and 124gb internal storeg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 6
+    },
+    {
+      "name": "Samsung m 30",
+      "price": "25000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://img4.gadgetsnow.com/gd/images/products/additional/small/G102843_View_1/mobiles/smartphones/samsung-galaxy-m30-64gb-black-4gb-ram-.jpg",
+      "description": "50mp camera with 8 gb ram and 124gb internal storeg",
+      "quantity": 2,
+      "userId": 1,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "name": "Samsung m 30",
+      "price": "25000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://img4.gadgetsnow.com/gd/images/products/additional/small/G102843_View_1/mobiles/smartphones/samsung-galaxy-m30-64gb-black-4gb-ram-.jpg",
+      "description": "50mp camera with 8 gb ram and 124gb internal storeg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 8
+    },
+    {
+      "name": "Samsung m 30",
+      "price": "25000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://img4.gadgetsnow.com/gd/images/products/additional/small/G102843_View_1/mobiles/smartphones/samsung-galaxy-m30-64gb-black-4gb-ram-.jpg",
+      "description": "50mp camera with 8 gb ram and 124gb internal storeg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 9
+    },
+    {
+      "name": "Samsung M40",
+      "price": "19000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "30mp Camera with 120 Gb storeg",
+      "image": "https://img5.gadgetsnow.com/gd/images/products/additional/large/G112827_View_1/mobiles/smartphones/samsung-galaxy-m40-128gb-seawater-blue-6gb-ram-.jpg",
+      "quantity": 4,
+      "userId": 1,
+      "productId": 2,
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "email": "sagarkothekar41@gmail.com",
+      "adress": "datta chowk yavatmal",
+      "contact": "8380902165",
+      "totalPrice": 726100,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "sagarkothekar41@gmail.com",
+      "adress": "datta chowk yavatmal",
+      "contact": "8380902165",
+      "totalPrice": 726100,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "sagarkothekar41@gmail.com",
+      "adress": "datta chowk yavatmal",
+      "contact": "8380902165",
+      "totalPrice": 726100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "email": "sagarkothekar41@gmail.com",
+      "adress": "datta chowk yavatmal",
+      "contact": "8380902165",
+      "totalPrice": 726100,
+      "userId": 1,
+      "id": 4
     }
   ]
 }

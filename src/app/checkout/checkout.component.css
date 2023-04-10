@@ -1,0 +1,28 @@
+.checkout h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blueviolet;
+}
+.checkout h3 {
+ text-align: center;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ color: blueviolet;
+}
+.checkout h4{
+    color: blueviolet;
+    text-align: center;
+}
+.checkout{
+    margin-left: 5%;
+}
+
+.payment{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.buttons{
+    text-align: center;
+     margin-left: 30%;
+}

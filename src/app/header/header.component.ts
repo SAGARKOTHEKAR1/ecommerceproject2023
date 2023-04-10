@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { isThisTypeNode } from 'typescript';
 import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
 
@@ -36,6 +37,7 @@ export class HeaderComponent implements OnInit {
           let userData=userStore && JSON.parse(userStore);
           this.userName=userData.name;
           this.menuType='user';
+          this.product.getCartList(userData.id)
 
         } else{
         
@@ -62,6 +64,7 @@ export class HeaderComponent implements OnInit {
   userLogout(){
     localStorage.removeItem('user');
     this.rout.navigate(['/user-auth'])
+    this.product.cartData.emit([]);
   }
   searchProduct(query:KeyboardEvent){
     if(query){

@@ -12,6 +12,7 @@ export class ProductDetailsComponent implements OnInit {
 productData:undefined|product;
 productQuantity:number=1
 removeCart=false
+cartData:product|undefined;
   constructor(private activeRout:ActivatedRoute , private product:ProductService ) { }
 
   ngOnInit(): void {
@@ -24,11 +25,25 @@ removeCart=false
     let items=JSON.parse(cartData);
     items=items.filter((item:product)=>productId== item.id.toString())
     if(items.length){
+
   this.removeCart=true
     }else{
       this.removeCart=false
     }
   }
+  let user =localStorage.getItem('user');
+  if(user){
+    let userId=user && JSON.parse(user).id;
+    this.product.getCartList(userId);
+    this.product.cartData.subscribe((result)=>{
+  let item =  result.filter((item:product)=>productId?.toString()===item.productId?.toString())
+  if(item.length){
+    this.cartData=item[0];
+    this.removeCart=true
+  }
+    })
+  }
+ 
     })
   }
 
@@ -62,10 +77,10 @@ this.productQuantity+=1
 
         }
         delete cartData.id;
-        console.warn(cartData);
         this.product.addToCart(cartData).subscribe((result)=>{
          if(result){
-          alert('Product is added in cart')
+     this.product.getCartList(userId);
+     this.removeCart=true
          }
           
         })
@@ -80,8 +95,20 @@ this.productQuantity+=1
   }
 
   removeToCart(productId:number){
+    if(!localStorage.getItem('user')){
     this.product.removeItemFormCart(productId)
-    this.removeCart=false
+ 
+  }else{
+       
+  
+ this.cartData && this.product.removeToCart(this.cartData.id).subscribe(
+  (result)=>{
+    let user =localStorage.getItem('user');
+    let userId=user && JSON.parse(user).id
+    this.product.getCartList(userId)
   }
+ )
+ this.removeCart=false;
+  }}
 
 }
